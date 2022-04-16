@@ -16,8 +16,7 @@
   				display: inline-block;
   				font-size: 12px;
   				margin: 4px 2px;
-  				cursor: pointer;
-			}
+  				cursor: pointer;			}
 		</style>
 	</head>
       <body>
@@ -26,18 +25,32 @@
             <div>
                   <form method="post" action="5krun.php">
                         <p>First Nmae: &nbsp;
-			<input type="text" name="first_name" id='first_name"></p> 
+			<input type="text" name="first_name" id="first_name"></p> 
                         <p>Last Nmae: &nbsp;
 			<input type="text" name="last_name" id="last_name"></p> 
                         <p>Address: &nbsp;
-			<input type="text" name="address" id="address"></p> 
+			<input type="text" name="address" id="address"></p>
+			<p>Gender: &nbsp;
+                        <input type="text" name="gender" id="gender"></p>
+			<p>city: &nbsp;
+                        <input type="text" name="city" id="city"></p>
+
+			<p>state: &nbsp;
+                        <input type="text" name="state" id="state"></p>
+
+			<p>zipcode: &nbsp;
+                        <input type="text" name="zipcode" id="zipcode"></p>
+ 
 			<!-- Create text fields to collect city, state, and zipcodes -->
                         <p>Your Age (numeric onl, must be 12 years old): &nbsp
 			<input type="number" min="12" name="age" id="age"></p>
                         <p>T-Shirt Size: &nbsp; 
                         <select name="size" id="size">
 				<option>Add more options</option>
+				<option>S</option>
+				<option>M</option>
 				<option>L</option>
+				<option>XL</option>
 			</select></p>
                         <input type="submit" value="Click to convert" />
                   </form>

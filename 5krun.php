@@ -43,7 +43,16 @@
 		// Enter your codes below
 
 
+		if ($age>=65){
+		$fee=20;
+		}else
+		{$fee=25;
+		}
+		
 
+		if ($size=="XL"){
+		$fee=$fee + 2;
+		}
 		// ----------------------------------------------------
 
                 echo "<p style='color: darkblue ;'>Your registration fee is " . $fee . "</p>" ;
